@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Who Am I?</title>
+<style>
+  /* Font dan body */
+  body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    padding: 50px;
+  }
+
+  h1 {
+    font-size: 3em;
+    color: #ff6f61;
+    text-shadow: 2px 2px #000;
+  }
+
+  p {
+    font-size: 1.2em;
+    color: #00ffff;
+  }
+
+  /* Pixelated avatar */
+  .pixel-avatar {
+    display: inline-block;
+    margin: 20px 0;
+    width: 128px;
+    height: 128px;
+    image-rendering: pixelated;
+    background: url('https://i.imgur.com/Ot5DWAW.png') no-repeat center/cover;
+    border: 4px solid #ff6f61;
+  }
+
+  /* Pixel buttons */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6f61;
+    border: 2px solid #fff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background-color: #ff3b2f;
+  }
+
+  /* Pixel stars animation */
+  .star {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    animation: blink 1.5s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+</style>
+</head>
+<body>
+
+<h1>👾 Welcome To This World! 👾</h1>
+
+<div class="pixel-avatar"></div>
+
+<p>Hi, Who Am I? This is Just A Little Introduce</p>
+
+<a href="#" class="btn">✨ Explore</a>
+<a href="#" class="btn">💾 Save</a>
+
+<script>
+  // Generate random pixel stars
+  for(let i=0;i<50;i++){
+    let star = document.createElement('div');
+    star.className = 'star';
+    star.style.top = Math.random() * window.innerHeight + 'px';
+    star.style.left = Math.random() * window.innerWidth + 'px';
+    document.body.appendChild(star);
+  }
+</script>
+
+</body>
+</html>
