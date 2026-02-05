@@ -8,11 +8,6 @@
   </pre>
 </div>
 
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:111827&height=120&section=header&text=CIA&fontSize=60&fontColor=ffffff&animation=fadeIn" />
-</p>
-
 <h2 align="center">Software Engineering Learner & Security Enthusiast Learner</h2>
 
 <p align="center">
