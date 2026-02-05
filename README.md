@@ -41,7 +41,7 @@
 <h2 align="center">🧰 My Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,php,python,nodejs,laravel,bootstrap,tailwind,mysql,linux,git&perline=8&size=40" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,php,python,nodejs,laravel,bootstrap,tailwind,mysql,linux,git&perline=12&size=36" />
 </p>
 
 ---
