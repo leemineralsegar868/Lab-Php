@@ -10,7 +10,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=monospace&duration=1240&pause=2800&color=ffff&center=true&width=600&lines=Software%20Engineering%20Learner;Security%20Enthusiast%20Learner">
 </p>
-<h2 align="center">Software Engineering Learner & Security Enthusiast Learner</h2>
+<h2 align="center">Hi, Let's Learning Together</h2>
 
 <p align="center">
   <a href="https://www.hackerrank.com/">
